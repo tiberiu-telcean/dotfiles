@@ -137,6 +137,9 @@ export LC_ALL=en_US.UTF-8
 export TERM=screen
 export EDITOR=vim
 
+# Dirs
+SP=/usr/local/scripts
+
 # Blur stuff
 alias micro="TERM=screen-256color micro"
 export TERM="xterm-256color"
@@ -145,10 +148,12 @@ export TERM="xterm-256color"
 alias rr="curl -s -L http://bit.ly/10hA8iC | bash"
 
 # utils
+PATH="$PATH:/usr/local/scripts"
 alias lah="ls -lah"
 alias v="vim"
-alias stripsql="mysqldump -u root -p --no-data users -S /opt/lampp/var/mysql/mysql.sock > schema.sql"
+alias stripsql="mysqldump -u root -p -h localhost --opt users -d --single-transaction -S '/opt/lampp/var/mysql/mysql.sock' | sed 's/ AUTO_INCREMENT=[0-9]*//g' > schema.sql"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias fic="ls -lAh1 | wc -l"
 
 # git
 alias g="git"
@@ -156,9 +161,11 @@ alias g="git"
 alias gc="git commit"
 alias gst="git status"
 alias gp="git push"
+alias gpa="git pushall"
 alias gpl="git pull"
 alias gd="git diff"
 alias gs="git switch"
 
+alias gupd="git commit -m 'Update $(date).'"
 alias ga="git add"
 alias gr="git rm"
