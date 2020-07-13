@@ -148,7 +148,6 @@ export TERM="xterm-256color"
 alias rr="curl -s -L http://bit.ly/10hA8iC | bash"
 
 # utils
-PATH="$PATH:/usr/local/scripts"
 alias lah="ls -lah"
 alias v="vim"
 alias stripsql="mysqldump -u root -p -h localhost --opt users -d --single-transaction -S '/opt/lampp/var/mysql/mysql.sock' | sed 's/ AUTO_INCREMENT=[0-9]*//g' > schema.sql"
