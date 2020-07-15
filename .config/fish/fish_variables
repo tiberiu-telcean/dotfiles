@@ -28,10 +28,12 @@ SETUVAR _fish_abbr_m:/media/tibi
 SETUVAR _fish_abbr_mk:make\x20\x2dj5
 SETUVAR _fish_abbr_rcd:set\x20PT\x20\x28pwd\x29\x3b\x20cd\x20\x2e\x2e\x3b\x20rm\x20\x24PT\x20\x2dri
 SETUVAR _fish_abbr_s:/usr/local/scripts
+SETUVAR _fish_abbr_sai:sudo\x20apt\x20install
 SETUVAR _fish_abbr_smi:sudo\x20make\x20install
 SETUVAR _fish_abbr_smu:sudo\x20make\x20uninstall
 SETUVAR _fish_abbr_smui:sudo\x20make\x20uninstall\x20install
 SETUVAR _fish_abbr_sp:sudo\x20\x21\x21
+SETUVAR _fish_abbr_sr:\x7e/scripts/scripts
 SETUVAR _fish_abbr_sv:sudo\x20vim
 SETUVAR _fish_abbr_v:vim
 SETUVAR _fish_abbr_x:exit
