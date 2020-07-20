@@ -1,16 +1,20 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_Dw:\x7e/Design\x2dwatch
 SETUVAR _fish_abbr_c:cd
+SETUVAR _fish_abbr_c_2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_cd_2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_cmk:cd\x20\x28mktemp\x20\x2dd\x29
 SETUVAR _fish_abbr_cop:cd\x20\x28echo\x20/usr/share/powerline\x29
+SETUVAR _fish_abbr_cst:config\x20status
 SETUVAR _fish_abbr_d:\x7e/Documents
 SETUVAR _fish_abbr_fic:ls\x20\x2dlAh1\x20\x7c\x20wc\x20\x2dl
 SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gb:git\x20branch
 SETUVAR _fish_abbr_gc:git\x20commit
+SETUVAR _fish_abbr_gch:git\x20checkout
 SETUVAR _fish_abbr_gcl:git\x20clone
 SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_gm:git\x20merge
@@ -22,6 +26,7 @@ SETUVAR _fish_abbr_grs:git\x20restore
 SETUVAR _fish_abbr_gs:git\x20switch
 SETUVAR _fish_abbr_gst:git\x20status
 SETUVAR _fish_abbr_gupd:git\x20commit\x20\x2dm\x20\x27Update\x20luni\x2013\x20iulie\x202020\x2c\x2011\x3a21\x3a06\x20\x2b0300\x2e\x27
+SETUVAR _fish_abbr_i:\x7e/isos
 SETUVAR _fish_abbr_l:ls
 SETUVAR _fish_abbr_lah:ls\x20\x2dlah
 SETUVAR _fish_abbr_m:/media/tibi

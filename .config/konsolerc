@@ -2,7 +2,7 @@
 DefaultProfile=candy.profile
 
 [Favorite Profiles]
-Favorites=video playing.profile,basic.profile,candy.profile
+Favorites=basic.profile,candy.profile,video playing.profile
 
 [KonsoleWindow]
 AllowMenuAccelerators=true
@@ -10,14 +10,18 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 Height 1366=1307
-Height 768=768
+Height 768=739
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1366=1366
+Width 1366=683
 Width 768=384
 Window-Maximized 1366x768=true
 Window-Maximized 180x320=true
+Window-Maximized 240x320=true
+Window-Maximized 243x432=true
+Window-Maximized 270x480=true
+Window-Maximized 768x1366=true
 
 [Notification Messages]
 ShowPasteUnprintableWarning=false

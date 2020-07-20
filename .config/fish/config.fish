@@ -1,7 +1,7 @@
 set fish_function_path $fish_function_path "/usr/share/powerline/bindings/fish"
 source /usr/share/powerline/bindings/fish/powerline-setup.fish
 powerline-setup
-~/Documents/shell-color-scripts/colorscript.sh -r
+~/repos/shell-color-scripts/colorscript.sh -r
 alias df="df --exclude-type=tmpfs --exclude-type=devtmpfs -h"
 set MP /media/tibi
 set SP /usr/local/scripts
