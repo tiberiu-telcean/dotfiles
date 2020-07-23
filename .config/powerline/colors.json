@@ -13,7 +13,7 @@
 		"darkcyan": 74,
 		"mediumcyan": 117,
 		"brightcyan": 159,
-		"navyblue": 17,
+		"navyblue": [17, "00005f"],
 		"yellower": 190,
 
 		"darkestblue": 24,

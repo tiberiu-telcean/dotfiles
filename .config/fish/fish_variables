@@ -9,7 +9,7 @@ SETUVAR _fish_abbr_cmk:cd\x20\x28mktemp\x20\x2dd\x29
 SETUVAR _fish_abbr_cop:cd\x20\x28echo\x20/usr/share/powerline\x29
 SETUVAR _fish_abbr_cpa:cp\x20\x2dr\x20\x2a
 SETUVAR _fish_abbr_cst:config\x20status
-SETUVAR _fish_abbr_cupd:config\x20commit\x20\x2dm\x20\x27\x5c\x28date\x5c\x29\x27
+SETUVAR _fish_abbr_cupd:config\x20commit\x20\x2dm\x20\x28date\x29
 SETUVAR _fish_abbr_d:\x7e/Documents
 SETUVAR _fish_abbr_fic:ls\x20\x2dlAh1\x20\x7c\x20wc\x20\x2dl
 SETUVAR _fish_abbr_g:git
@@ -32,6 +32,7 @@ SETUVAR _fish_abbr_i:\x7e/isos
 SETUVAR _fish_abbr_l:ls
 SETUVAR _fish_abbr_lah:ls\x20\x2dlah
 SETUVAR _fish_abbr_m:/media/tibi
+SETUVAR _fish_abbr_mcm:make\x20clean\x3b\x20make
 SETUVAR _fish_abbr_mk:make\x20\x2dj5
 SETUVAR _fish_abbr_mn:/media/tibi\x3bnope
 SETUVAR _fish_abbr_n:nope

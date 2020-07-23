@@ -7,6 +7,10 @@ Command=/usr/bin/fish
 Name=candy
 Parent=FALLBACK/
 
+[Interaction Options]
+CtrlRequiredForDrag=false
+UnderlineFilesEnabled=true
+
 [Keyboard]
 KeyBindings=default
 

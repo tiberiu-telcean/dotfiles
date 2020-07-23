@@ -2,7 +2,7 @@
 DefaultProfile=candy.profile
 
 [Favorite Profiles]
-Favorites=video playing.profile,basic.profile,candy.profile
+Favorites=candy.profile,video playing.profile,basic.profile
 
 [KonsoleWindow]
 AllowMenuAccelerators=true
@@ -25,3 +25,6 @@ Window-Maximized 768x1366=true
 
 [Notification Messages]
 ShowPasteUnprintableWarning=false
+
+[ThumbnailsSettings]
+ThumbnailSize=300
