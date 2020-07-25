@@ -4,6 +4,7 @@ SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_Dw:\x7e/Design\x2dwatch
 SETUVAR _fish_abbr_c:cd
 SETUVAR _fish_abbr_c_2E_2E_:cd\x20\x2e\x2e
+SETUVAR _fish_abbr_ca:config\x20add
 SETUVAR _fish_abbr_cd_2E_2E_:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_cmk:cd\x20\x28mktemp\x20\x2dd\x29
 SETUVAR _fish_abbr_cop:cd\x20\x28echo\x20/usr/share/powerline\x29

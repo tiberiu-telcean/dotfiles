@@ -34,6 +34,10 @@
 				"function": "powerline.segments.common.net.network_load",
 				"priority": 30
 			},
+			{
+				"function": "powerline.segments.common.net.internal_ip",
+				"priority": 30
+			},
       			{
 				"function": "powerline.segments.common.bat.battery",
 			        "priority": 40
